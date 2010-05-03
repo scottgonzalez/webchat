@@ -1,0 +1,9 @@
+- emoticons
+- embedly
+- message history (arrow up/down to scroll through history)
+- tab completion for nicks
+
+- auto-generate channels when someone visits a non-existant room
+  - e.g., visiting chat.nodejitsu.com/foo should generate a channel
+  - when everyone leaves a channel, we should destroy it, clearing its history
+
