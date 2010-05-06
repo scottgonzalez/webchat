@@ -2,8 +2,17 @@
 - embedly
 - message history (arrow up/down to scroll through history)
 - tab completion for nicks
-
+- implement IRC console commands (/join, /quit, /message, /me)
+- better formatted user names in userlist
+- scrollable userlist, virtualized userlist
+  - imagine we have N users connected to the chat room
+  - imagine we were on a Pentium II
+- context menu for users
+  - message
+  - poke (/me pokes {{name}})
+  - whois
 - auto-generate channels when someone visits a non-existant room
   - e.g., visiting chat.nodejitsu.com/foo should generate a channel
   - when everyone leaves a channel, we should destroy it, clearing its history
-
+- create the ability for multiple chatroom instances
+  - implement tab navigation for multiple chat room instances
