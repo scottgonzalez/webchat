@@ -16,3 +16,4 @@
   - when everyone leaves a channel, we should destroy it, clearing its history
 - create the ability for multiple chatroom instances
   - implement tab navigation for multiple chat room instances
+- auto-reconnect if the connection is dropped
